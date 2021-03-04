@@ -1,15 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import { config } from './constants.js';
-import { elements } from './components/elements.js';
+import { Elements, Elements2 } from './components/Elements.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       {config.url.API_URL}
-      </header>
-      <elements></elements>
+      <Elements/>
+      <Elements2/>
     </div>
   );
 }

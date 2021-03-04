@@ -1,12 +1,12 @@
 import React, { Component, PureComponent } from 'react'
 
-class elements extends Component {
+export class Elements extends Component {
     render() {
         return React.createElement('div', null, 'Hello React CreateElement!');
     }
 }
 
-class elements2 extends PureComponent {
+export class Elements2 extends PureComponent {
     render() {
         return (
             <div>
@@ -16,4 +16,4 @@ class elements2 extends PureComponent {
     }
 }
 
-export default elements;
+export default Elements;
